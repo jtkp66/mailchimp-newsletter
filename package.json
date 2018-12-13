@@ -1,0 +1,20 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "Simple newsletter app using mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Jamie Pham",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
